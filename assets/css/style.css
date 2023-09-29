@@ -112,14 +112,14 @@ h1, h2 {
 @media screen and (min-width: 500px) {
   .banner__text,
   .footer__text {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 }
 
 @media screen and (min-width: 600px) {
   .banner__text,
   .footer__text {
-    max-width: 60%;
+    /* max-width: 100%; */
   }
 }
 
@@ -269,6 +269,7 @@ h1, h2 {
 }
 
 .timeline__block__text {
+  text-decoration:  overline;
   font-size: 1.6rem;
 }
 
