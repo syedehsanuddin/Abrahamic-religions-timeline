@@ -136,6 +136,20 @@ h1, h2 {
   -webkit-text-fill-color: transparent;
 }
 
+
+.Ahsan-banner__sub-title {
+  font-size: 3rem;
+  background: -webkit-gradient(linear, right top, left top, from(#899538), color-stop(#899538), color-stop(#ffffff), to(#ffffff));
+  background: -webkit-linear-gradient(right, #899538, #899538, #899538, #ffffff);
+  background: -moz-linear-gradient(right, #899538, #899538, #899538, #ffffff);
+  background: -o-linear-gradient(right, #899538, #899538, #899538, #ffffff);
+  background: linear-gradient(to left, #899538, #899538, #899538, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 /* Timeline Section Style */
 .timeline {
   position: relative;
