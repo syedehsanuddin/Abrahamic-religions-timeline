@@ -10,6 +10,27 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+@font-face {
+	font-family: 'Harabara';
+	src: local('Harabara'), url('./Harabara.woff') format('woff');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_80802">Text with this font applied</p> */
+.fontsforweb_fontid_80802 {
+	font-family: 'Harabara' !important;
+}
+
+@font-face {
+	font-family: 'utmavo';
+	src: local('utmavo'), url('./utmavo.woff') format('woff');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_40183">Text with this font applied</p> */
+.fontsforweb_fontid_40183 {
+	font-family: 'utmavo' !important;
+  font-size: 1.7rem;
+}
+
+
+
 html {
   font-size: clamp(8px, 1vw, 10px);
   scrollbar-width: thin;
@@ -85,6 +106,7 @@ h1, h2 {
 .banner__title,
 .footer__title {
   font-size: 4rem;
+  font-family: 'Harabara' !important;
 }
 
 @media screen and (min-width: 600px) {
@@ -107,7 +129,15 @@ h1, h2 {
 .banner__text,
 .footer__text {
   margin: 2rem auto;
+  font-family: 'utmavo' !important;
 }
+
+.footer__textv2 {
+  margin: 2rem auto;
+  font-family: 'utmavo' !important;
+  font-size: 1.3rem;
+}
+
 
 @media screen and (min-width: 500px) {
   .banner__text,
@@ -134,11 +164,20 @@ h1, h2 {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Harabara' !important;
 }
 
 
+.AhsanBorderClass{
+  border: 0.5px solid #ffa500;
+  border-radius: 25px;
+  padding: 20px;
+
+}
+
 .Ahsan-banner__sub-title {
-  font-size: 3rem;
+
+  font-size: 3.2rem;
   background: -webkit-gradient(linear, right top, left top, from(#899538), color-stop(#899538), color-stop(#ffffff), to(#ffffff));
   background: -webkit-linear-gradient(right, #899538, #899538, #899538, #ffffff);
   background: -moz-linear-gradient(right, #899538, #899538, #899538, #ffffff);
@@ -147,6 +186,8 @@ h1, h2 {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Harabara' !important;
+  
 }
 
 
