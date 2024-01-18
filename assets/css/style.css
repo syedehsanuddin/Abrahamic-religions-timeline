@@ -134,6 +134,11 @@ h1, h2 {
   }
 }
 
+.footer__titlex {
+    font-size: 2.5rem;
+    font-family: 'Harabara' !important;
+  }
+
 @media screen and (min-width: 780px) {
   .banner__titlex1,
   .footer__titlex1 {
@@ -143,7 +148,11 @@ h1, h2 {
   }
 }
 
-
+.footer__titlex1 {
+  color: grey;
+  font-size: 1.8rem;
+  font-family: 'Harabara' !important;
+}
 
 .banner__text,
 .footer__text {
